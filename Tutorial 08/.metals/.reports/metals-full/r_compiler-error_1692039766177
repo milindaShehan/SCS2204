@@ -1,0 +1,45 @@
+java.lang.AssertionError: NoDenotation.owner
+occurred in the presentation compiler.
+
+action parameters:
+offset: 132
+uri: file:///E:/UCSC%20CS/2%20Second%20Year/Semester%201/SCS2204%20-%20Functional%20Programming/Practicals/SCS2204/Tutorial%2008/Q1.scala
+text:
+import scala.io.StdIn
+object interest {
+
+    def main (args : Array[String]): Unit={
+        val intrest: Double => Double = de[@@]
+
+        print("Enter deposit amount: ")
+        val d = StdIn.readDouble();
+        println(interest(d));
+
+
+    }
+
+    def interest(deposit:Double):Double ={
+        if (deposit <= 20000.00)
+            deposit*2/100;
+        else if (deposit<=200000)
+            deposit*4/100;
+        else if (deposit<=2000000)
+            deposit*3.5/100;
+        else 
+            deposit*6.5/100;
+    }
+}
+
+
+
+error stacktrace:
+dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2576)
+	scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:96)
+	scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	scala.collection.immutable.List.dropWhile(List.scala:79)
+	scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+	scala.meta.internal.pc.ScalaPresentationCompiler.signatureHelp$$anonfun$1(ScalaPresentationCompiler.scala:371)
