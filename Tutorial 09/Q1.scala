@@ -1,3 +1,4 @@
+
 object RationalNumber {
 
     class Rational(n: Int, d: Int) {
@@ -33,3 +34,4 @@ object RationalNumber {
         println(s"Negation of x: $negX")
     }
 }
+
