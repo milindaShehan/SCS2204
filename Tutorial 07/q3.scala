@@ -12,10 +12,10 @@ object q3 {
       var y = 2
       while (y < x) {
 
-        if (x % y == 0) {
-          flag = false
-        }
-        y = y + 1
+          if (x % y == 0) {
+            flag = false
+          }
+          y = y + 1
       }
       if (flag) {
         true
