@@ -1,19 +1,19 @@
 object Bank {
   class Account(val accountId: Int, var balance: Double) {
     def deposit(amount: Double): Unit = {
-      if (amount > 0) {
-        balance += amount
-        println(s"Deposited $amount to Account $accountId. New balance: $balance")
-      } 
+        if (amount > 0) {
+            balance += amount
+            println(s"Deposited $amount to Account $accountId. New balance: $balance")
+        } 
     }
 
     def withdraw(amount: Double): Unit = {
-      if (amount > 0 && amount <= balance) {
-        balance -= amount
-        println(s"Withdrew $amount from Account $accountId. New balance: $balance")
-      } else {
-        println("Invalid withdrawal amount or insufficient balance.")
-      }
+        if (amount > 0 && amount <= balance) {
+            balance -= amount
+            println(s"Withdrew $amount from Account $accountId. New balance: $balance")
+        } else {
+            println("Invalid withdrawal amount or insufficient balance.")
+        }
     }
 
     def transfer(toAccount: Account, amount: Double): Unit = {
