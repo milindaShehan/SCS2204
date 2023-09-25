@@ -1,0 +1,240 @@
+2023.06.18 10:21:06 INFO  Started: Metals version 0.11.12 in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2' for client Visual Studio Code 1.79.2.
+Jun 18, 2023 10:21:06 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 18, 2023 10:21:06 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 18, 2023 10:21:06 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\.metals\metals (H2 2.1)
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 18, 2023 10:21:07 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.105s)
+2023.06.18 10:21:07 INFO  time: initialize in 0.86s
+2023.06.18 10:21:09 WARN  Build server is not auto-connectable.
+2023.06.18 10:21:09 WARN  no build tool detected in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.18 10:21:09 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:21:16 INFO  no build target found for E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala. Using presentation compiler with project's scala-library version: 3.2.2
+Jun 18, 2023 10:21:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2023.06.18 10:21:19 INFO  time: code lens generation in 10s
+2023.06.18 10:21:19 INFO  time: code lens generation in 1.54s
+2023.06.18 10:21:19 INFO  time: code lens generation in 1.4s
+2023.06.18 10:21:19 INFO  time: code lens generation in 7.96s
+2023.06.18 10:21:19 INFO  time: code lens generation in 1.36s
+2023.06.18 10:21:19 INFO  time: code lens generation in 1.39s
+2023.06.18 10:21:19 INFO  time: code lens generation in 1.43s
+Jun 18, 2023 10:21:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:83)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:94)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:48)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:48)
+
+2023.06.18 10:26:49 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:28:00 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:28:14 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:32:54 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:33:21 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:33:37 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:33:49 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+Jun 18, 2023 10:34:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 753
+2023.06.18 10:35:38 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:46:19 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:46:36 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:46:53 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:50:04 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 10:50:17 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+Jun 18, 2023 11:07:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2158
+2023.06.18 11:36:08 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.18 15:05:46 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.18 15:06:11 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.18 15:06:44 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.18 15:06:59 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.18 15:08:25 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.18 15:17:30 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+Jun 18, 2023 3:21:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3854
+Jun 18, 2023 3:25:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4413
+2023.06.18 15:28:49 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.18 15:29:31 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+Jun 18, 2023 3:34:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5180
+2023.06.18 15:34:16 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.18 15:34:39 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.18 15:35:03 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+Jun 18, 2023 10:03:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5319
+2023.06.18 22:03:43 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.18 22:42:41 INFO  Shutting down server
+2023.06.18 22:42:41 INFO  shutting down Metals
+2023.06.18 22:42:42 INFO  Exiting server
+2023.06.19 10:21:32 INFO  Started: Metals version 0.11.12 in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2' for client Visual Studio Code 1.79.2.
+Jun 19, 2023 10:21:32 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 19, 2023 10:21:32 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 19, 2023 10:21:32 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 19, 2023 10:21:33 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\.metals\metals (H2 2.1)
+Jun 19, 2023 10:21:33 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.053s)
+Jun 19, 2023 10:21:33 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 19, 2023 10:21:33 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.19 10:21:33 INFO  time: initialize in 1.38s
+2023.06.19 10:21:38 WARN  Build server is not auto-connectable.
+2023.06.19 10:21:38 WARN  no build tool detected in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.19 10:21:38 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 10:22:03 INFO  no build target found for E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.19 10:22:03 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 10:22:03 INFO  Shutting down server
+2023.06.19 10:22:03 INFO  shutting down Metals
+Jun 19, 2023 10:22:05 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\.metals\metals (H2 2.1)
+Jun 19, 2023 10:22:06 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.013s)
+Jun 19, 2023 10:22:06 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 19, 2023 10:22:06 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.19 18:25:05 INFO  Started: Metals version 0.11.12 in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2' for client Visual Studio Code 1.79.2.
+Jun 19, 2023 6:25:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 19, 2023 6:25:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 19, 2023 6:25:06 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 19, 2023 6:25:10 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\.metals\metals (H2 2.1)
+Jun 19, 2023 6:25:10 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.056s)
+Jun 19, 2023 6:25:10 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 19, 2023 6:25:10 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.19 18:25:10 INFO  time: initialize in 5.1s
+2023.06.19 18:25:13 WARN  Build server is not auto-connectable.
+2023.06.19 18:25:13 WARN  no build tool detected in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.19 18:25:14 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 18:25:20 INFO  no build target found for E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.19 18:25:23 INFO  time: code lens generation in 7.84s
+2023.06.19 18:30:16 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.19 18:30:20 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+Jun 19, 2023 6:45:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+2023.06.19 19:33:48 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:34:34 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:35:45 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:36:42 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:37:27 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:37:37 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:38:26 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:39:24 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:40:10 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.19 19:40:19 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.19 19:40:23 INFO  Shutting down server
+2023.06.19 19:40:23 INFO  shutting down Metals
+2023.06.19 19:40:23 INFO  Exiting server
+2023.06.20 08:41:56 INFO  Started: Metals version 0.11.12 in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2' for client Visual Studio Code 1.79.2.
+Jun 20, 2023 8:41:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 20, 2023 8:41:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 20, 2023 8:41:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 20, 2023 8:41:57 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\.metals\metals (H2 2.1)
+Jun 20, 2023 8:41:57 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.067s)
+Jun 20, 2023 8:41:57 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 20, 2023 8:41:57 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.20 08:41:58 INFO  time: initialize in 1.48s
+2023.06.20 08:42:03 WARN  Build server is not auto-connectable.
+2023.06.20 08:42:03 WARN  no build tool detected in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.20 08:42:03 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.20 08:42:03 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.20 08:42:10 INFO  no build target found for E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.20 08:42:15 INFO  time: code lens generation in 12s
+2023.06.20 08:42:49 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.20 08:43:03 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:03:29 INFO  time: code lens generation in 1.79s
+Jun 20, 2023 9:03:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+2023.06.20 09:10:27 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+Jun 20, 2023 9:11:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 654
+Jun 20, 2023 9:13:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 867
+2023.06.20 09:23:18 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:23:34 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:24:08 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\tempCodeRunnerFile.scala
+2023.06.20 09:24:13 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\tempCodeRunnerFile.scala
+2023.06.20 09:25:08 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:25:46 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:26:18 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\tempCodeRunnerFile.scala
+2023.06.20 09:48:00 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.20 09:48:21 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.20 09:48:41 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.20 09:48:56 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:49:25 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:49:27 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q3.scala
+2023.06.20 09:49:29 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.20 09:49:31 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q1.scala
+2023.06.20 09:50:10 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q2.scala
+2023.06.20 09:50:34 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:52:39 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:53:10 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 09:59:34 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 10:22:47 INFO  Shutting down server
+2023.06.20 10:22:47 INFO  shutting down Metals
+2023.06.20 10:22:47 INFO  Exiting server
+2023.06.20 13:17:16 INFO  Started: Metals version 0.11.12 in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2' for client Visual Studio Code 1.79.2.
+Jun 20, 2023 1:17:16 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 20, 2023 1:17:16 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 20, 2023 1:17:16 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 20, 2023 1:17:17 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\.metals\metals (H2 2.1)
+Jun 20, 2023 1:17:17 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.049s)
+Jun 20, 2023 1:17:17 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jun 20, 2023 1:17:17 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.06.20 13:17:17 INFO  time: initialize in 1.49s
+2023.06.20 13:17:22 WARN  Build server is not auto-connectable.
+2023.06.20 13:17:22 WARN  no build tool detected in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.20 13:17:22 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_2\Q4.scala
+2023.06.20 13:17:26 INFO  Shutting down server
+2023.06.20 13:17:26 INFO  shutting down Metals
