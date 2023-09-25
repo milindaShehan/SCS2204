@@ -1,0 +1,73 @@
+2023.06.15 23:30:48 INFO  Started: Metals version 0.11.12 in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1' for client Visual Studio Code 1.79.1.
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\.metals\metals (H2 2.1)
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.032s)
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 15, 2023 11:30:48 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.105s)
+2023.06.15 23:30:49 INFO  time: initialize in 0.93s
+2023.06.15 23:30:52 WARN  Build server is not auto-connectable.
+2023.06.15 23:30:52 WARN  no build tool detected in workspace 'E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.15 23:30:52 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\Q1.scala
+2023.06.15 23:30:56 INFO  no build target found for E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\Q1.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.06.15 23:30:59 INFO  time: code lens generation in 7.12s
+2023.06.15 23:32:18 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\question1.scala
+2023.06.15 23:32:23 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\Q2.scala
+2023.06.15 23:44:34 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\question1.scala
+Jun 15, 2023 11:44:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+2023.06.15 23:45:07 WARN  no build target for: E:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\question1.scala
+2023.06.15 23:53:14 ERROR text document: file:///e:/UCSC%20CS/2%20Second%20Year/Semester%201/SCS2204%20-%20Functional%20Programming/Practicals/21000522_1/question1.scala
+java.nio.file.NoSuchFileException: e:\UCSC CS\2 Second Year\Semester 1\SCS2204 - Functional Programming\Practicals\21000522_1\question1.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1316)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1780)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1778)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.06.15 23:53:15 INFO  Shutting down server
+2023.06.15 23:53:15 INFO  shutting down Metals
+2023.06.15 23:53:15 INFO  Exiting server
